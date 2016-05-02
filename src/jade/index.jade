@@ -1,0 +1,129 @@
+extends _layout
+
+block title
+	title CV
+
+block info
+	.info#info
+		img.info__img(src="img/photo.jpg", alt="profile photo")
+		.info__text
+			p Украина
+			p Женат
+			p Не готов к переезду, возможны командировки к заказчику
+		.info__text
+			h3.title__small Языки:
+			p
+				| Украинский, Русский (родные)
+				br
+				| Английский (beginer)
+		.info__text
+			h3.title__small Образование:
+			p
+				| Университет экономики и права “КРОК” (Киев)
+				sup.
+					(2006 - 2011)
+				br
+				| Факультет: Финансы и кредит (Магистр, стационар)
+		.info__text
+			p
+				|Финалист Всеукраиского конкурса по верстке
+				a(href="http://uawebchallenge.com/")  UaWebChallenge Vll, Vlll
+block contact
+	.contact#contact
+		h2.title__section.
+			Контакты
+		p.contact__item
+			span.contact__type
+				|Email:
+			a.contact__link( href="mailto:veremey4uk@gmail.com")  veremey4uk@gmail.com
+		p.contact__item
+			span.contact__type
+				|Tel:
+			a.contact__link(href="tel:+38097-15-15-097")  +38097-15-15-097
+		p.contact__item
+			span.contact__type
+				|Skype:
+			a.contact__link(href="tel:baxazar")  baxazar
+		p.contact__item
+			span.contact__type
+				|GitHub:
+			a.contact__link(href="https://github.com/veremey")  https://github.com/veremey
+		p.contact__item
+			span.contact__type
+				|Twitter:
+			a.contact__link(href="https://twitter.com/_baxazar")  https://twitter.com/_baxazar
+block knowledge
+	.knowledge#knowledge
+		h2.title__section
+			| Знания
+		p
+			|Владею современными подходами к верстке: верстка под мобильные устройства, ретину, резиновая/адаптивная верстка, SVG, паралакс, анимация и многое другое.
+			br
+			br
+			|Создаю качественную верстку любой сложности используя:
+
+		ul.knowledge__list
+			li.knowledge__item
+				h3.title__small Разметка
+			li.knowledge__item HTML5
+			li.knowledge__item HAML
+			li.knowledge__item Jade
+			li.knowledge__item bem_
+
+		ul.knowledge__list
+			li.knowledge__item
+				h3.title__small Стили
+			li.knowledge__item CSS3
+			li.knowledge__item SASS
+			li.knowledge__item Compass
+
+		ul.knowledge__list
+			li.knowledge__item
+				h3.title__small Программирование
+			li.knowledge__item JS basics
+			li.knowledge__item jQuery
+
+		ul.knowledge__list
+			li.knowledge__item
+				h3.title__small Дополнительно
+			li.knowledge__item Gulp
+			li.knowledge__item Git
+			li.knowledge__item Photoshop
+			li.knowledge__item Illustrator
+block career
+	.career#career
+		h2.title__section Карьра
+	.career__place
+		h3.title__small Kick-ass Labs
+			sup   (март 2016г - ...)
+		p front-end developer
+	.career__place
+		h3.title__small Фрилансер
+			sup   (январь 2014г - март 2016)
+		p front-end developer
+block portfolio
+	.portfolio#portfolio
+		h2.title__section Работы
+		ul.portfolio__list
+				li.portfolio__item
+					a.portfolio__link(href="http://kommersant.ru/projects/bolshoi") http://kommersant.ru/projects/bolshoi
+				li.portfolio__item
+					a.portfolio__link(href="http://aboutscotland.style.rbc.ru/map") http://aboutscotland.style.rbc.ru/map
+				li.portfolio__item
+					a.portfolio__link(href="http://seikoastron.style.rbc.ru/ ") http://seikoastron.style.rbc.ru/
+				li.portfolio__item
+					a.portfolio__link(href="http://seikoastron.style.rbc.ru/article/seiko-tehnika-mirovogo-vremeni/") http://seikoastron.style.rbc.ru/article/seiko-tehnika-mirovogo-vremeni/
+				li.portfolio__item
+					a.portfolio__link(href="http://brooksbrothers.style.rbc.ru/") http://brooksbrothers.style.rbc.ru/
+				li.portfolio__item
+					a.portfolio__link(href="http://maup.com.ua") http://maup.com.ua
+				li.portfolio__item
+					a.portfolio__link(href="http://adeptco.kz") http://adeptco.kz
+				li.portfolio__item
+					a.portfolio__link(href="http://campioshop.ru") http://campioshop.ru
+				li.portfolio__item
+					a.portfolio__link(href="http://www.stm-group.su") http://www.stm-group.su
+				li.portfolio__item
+					a.portfolio__link(href="http://canberracoffee.com.au") http://canberracoffee.com.au
+				li.portfolio__item
+					a.portfolio__link(href="http://shagov-medicine.com") http://shagov-medicine.com

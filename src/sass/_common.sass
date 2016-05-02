@@ -1,0 +1,88 @@
++font('LatoRegular', 'LatoRegular')
++font('LatoLight', 'LatoLight')
+
+=lr
+	font-family: 'LatoRegular', Arial, sans-serif
+=ll
+	font-family: 'LatoLight', Arial, sans-serif
+
+
+// colors
+$n: transparent
+$green: #3f885f
+$brown: #644650
+$purpur: #eb6c96
+$blue: #52abf0
+
+
+body
+	font-size: 18px
+	line-height: 1.22
+	background-color: #fff
+	+lr
+	+r(1600)
+		font-size: 18px
+
+sup
+	font-size: .6em
+	vertical-align: top
+
+a
+	text-decoration: none
+	color: $blue
+	+tr(.4s)
+	&:hover
+		color: $purpur
+
+// +selection
+// 	background-color: rgba(100, 70, 80, .7)
+// 	color: #f6f6f6
+// common blocks
+
+.profile
+	width: 90%
+	max-width: 900px
+	position: relative
+	margin: 0 auto
+	background-color: #fff
+	+clr
+
+.info
+	+clr
+	&__text
+		margin-bottom: 10px
+	&__img
+		float: left
+		font-size: 0
+		margin: 0 30px 20px 0
+	// &__text
+
+.knowledge
+	+justify
+	p
+		font-size: 18px
+		line-height: 1.22
+		text-align: left
+		text-align-last: left
+	&__list
+		display: inline-block
+		vertical-align: top
+		margin: 10px 0
+	&__item
+		display: block
+		font-size: 18px
+		line-height: 1.5
+		text-align: left
+		text-align-last: left
+
+.career
+	+clr
+	&__place
+		margin-bottom: 20px
+.portfolio
+	margin-bottom: 40px
+	+clr
+	&__item
+		margin-bottom: 5px
+	&__link
+		font-size: 18px
