@@ -14,7 +14,6 @@ $brown: #644650
 $purpur: #eb6c96
 $blue: #52abf0
 
-
 body
 	font-size: 18px
 	line-height: 1.22
@@ -55,6 +54,28 @@ a
 		float: left
 		font-size: 0
 		margin: 0 30px 20px 0
+.contact
+	&__wrap
+		margin-bottom: 30px
+	&__link
+		width: 20%
+		position: relative
+		display: inline-block
+		vertical-align: top
+		text-align: center
+		&:hover
+			span
+				top: 100%
+				opacity: 1
+				// +tr(opacity 0.2s .6s)
+		span
+			position: absolute
+			top: 0
+			left: 50%
+			opacity: 0
+			+trx(-50%)
+			white-space: nowrap
+			+tr(.6s)
 
 .knowledge
 	+justify

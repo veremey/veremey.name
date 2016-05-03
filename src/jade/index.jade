@@ -32,26 +32,25 @@ block contact
 	.contact#contact
 		h2.title__section.
 			Контакты
-		p.contact__item
-			span.contact__type
-				|Email:
-			a.contact__link( href="mailto:veremey4uk@gmail.com")  veremey4uk@gmail.com
-		p.contact__item
-			span.contact__type
-				|Tel:
-			a.contact__link(href="tel:+38097-15-15-097")  +38097-15-15-097
-		p.contact__item
-			span.contact__type
-				|Skype:
-			a.contact__link(href="tel:baxazar")  baxazar
-		p.contact__item
-			span.contact__type
-				|GitHub:
-			a.contact__link(href="https://github.com/veremey")  https://github.com/veremey
-		p.contact__item
-			span.contact__type
-				|Twitter:
-			a.contact__link(href="https://twitter.com/_baxazar")  https://twitter.com/_baxazar
+		.contact__wrap
+			a.contact__link( href="mailto:veremey4uk@gmail.com")
+				i.icon-email
+				span veremey4uk@gmail.com
+
+			a.contact__link(href="tel:+38097-15-15-097")
+				i.icon-phone
+				span +38097-15-15-097
+
+			a.contact__link(href="tel:baxazar")
+				i.icon-skype
+				span baxazar
+			a.contact__link(href="https://github.com/veremey")
+				i.icon-github
+				span Veremey
+
+			a.contact__link(href="https://twitter.com/_baxazar")
+				i.icon-twitter
+				span _baxazar
 block knowledge
 	.knowledge#knowledge
 		h2.title__section

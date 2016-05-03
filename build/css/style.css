@@ -27,9 +27,15 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .icon, [class^="icon-"], [class*=" icon-"] { display: inline-block; }
 
-.icon-sepa:before { content: ""; }
+.icon-email:before { content: ""; }
 
-.icon-skrill:before { content: ""; }
+.icon-phone:before { content: ""; }
+
+.icon-twitter:before { content: ""; }
+
+.icon-skype:before { content: ""; }
+
+.icon-github:before { content: ""; }
 
 @font-face { font-family: "LatoRegular"; src: url("fonts/LatoRegular.eot"); src: url("fonts/LatoRegular.eot?#iefix") format("embedded-opentype"), url("fonts/LatoRegular.woff2") format("woff2"), url("fonts/LatoRegular.woff") format("woff"), url("fonts/LatoRegular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 @font-face { font-family: "LatoLight"; src: url("fonts/LatoLight.eot"); src: url("fonts/LatoLight.eot?#iefix") format("embedded-opentype"), url("fonts/LatoLight.woff2") format("woff2"), url("fonts/LatoLight.woff") format("woff"), url("fonts/LatoLight.ttf") format("truetype"); font-weight: normal; font-style: normal; }
@@ -47,6 +53,11 @@ a:hover { color: #eb6c96; }
 .info:after { content: " "; display: table; clear: both; }
 .info__text { margin-bottom: 10px; }
 .info__img { float: left; font-size: 0; margin: 0 30px 20px 0; }
+
+.contact__wrap { margin-bottom: 30px; }
+.contact__link { width: 20%; position: relative; display: inline-block; vertical-align: top; text-align: center; }
+.contact__link:hover span { top: 100%; opacity: 1; }
+.contact__link span { position: absolute; top: 0; left: 50%; opacity: 0; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); white-space: nowrap; -webkit-transition: 0.6s; transition: 0.6s; }
 
 .knowledge { text-align: justify; line-height: 0; font-size: 0; text-justify: newspaper; zoom: 1; -moz-text-align-last: justify; text-align-last: justify; }
 .knowledge:after { content: ""; display: inline-block; width: 100%; height: 0px; visibility: hidden; overflow: hidden; }
@@ -104,6 +115,8 @@ a:hover { color: #eb6c96; }
 .slider__btn { position: absolute; bottom: 60px; right: 40px; }
 .slider__btn button { position: relative; display: inline-block; height: 96px; width: 70px; margin-left: 15px; background-color: #70555d; }
 .slider__btn button:before { content: ""; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.icon-email, .icon-phone, .icon-skype, .icon-github, .icon-twitter { font-size: 50px; }
 
 .title__main { font-size: 43px; line-height: 1.5; text-align: center; margin: 10px 0 20px; }
 .title__main sup { color: red; margin-left: 20px; font-size: 0.4em; }
