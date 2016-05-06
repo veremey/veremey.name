@@ -9,11 +9,27 @@
 			color: red
 			margin-left: 20px
 			font-size: 0.4em
+			+r(700)
+				position: relative
+				color: $n
+				font-size: 0
+				&:after
+					content: ""
+					position: absolute
+					top: 20px
+					left: 0
+					width: 16px
+					height: 16px
+					background-color: red
+					-webkit-border-radius: 100%
+					border-radius: 100%
 	&__section
 		font-size: 37px
 		line-height: 1.5
 		margin: 5px 0 10px
 		text-indent: -1em
+		+r(700)
+			text-indent: -.5em
 	&__small
 		font-size: 21px
 		line-height: 1.5

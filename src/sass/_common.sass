@@ -19,8 +19,8 @@ body
 	line-height: 1.22
 	background-color: #fff
 	+lr
-	+r(1600)
-		font-size: 18px
+	+r(600)
+		font-size: 20px
 
 sup
 	font-size: .6em
@@ -50,10 +50,25 @@ a
 	+clr
 	&__text
 		margin-bottom: 10px
+		+r(830)
+			width: 590px
+		+r(620)
+			width: 56%
+			float: right
+			&:last-child
+				width: 100%
+		+r(560)
+			width: 100%
+			float: none
 	&__img
 		float: left
 		font-size: 0
 		margin: 0 30px 20px 0
+		+r(620)
+			width: 40%
+			margin: 0 0 20px 0
+		+r(560)
+			display: none
 .contact
 	&__wrap
 		margin-bottom: 30px
@@ -88,6 +103,10 @@ a
 		display: inline-block
 		vertical-align: top
 		margin: 10px 0
+		+r(710)
+			width: 50%
+		+r(470)
+			width: 100%
 	&__item
 		display: block
 		font-size: 18px
@@ -99,13 +118,14 @@ a
 	+clr
 	&__place
 		margin-bottom: 20px
+
 .portfolio
 	margin-bottom: 40px
 	+clr
 	&__item
 		margin-bottom: 5px
 	&__link
-		font-size: 18px
+		font-size: 20px
 	&__sublist
 		margin-left: 20px
 	&__subitem

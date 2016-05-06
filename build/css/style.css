@@ -72,7 +72,7 @@ a:hover { color: #eb6c96; }
 .portfolio { margin-bottom: 40px; *zoom: 1; }
 .portfolio:after { content: " "; display: table; clear: both; }
 .portfolio__item { margin-bottom: 5px; }
-.portfolio__link { font-size: 18px; }
+.portfolio__link { font-size: 20px; }
 .portfolio__sublist { margin-left: 20px; }
 .portfolio__subitem { position: relative; }
 .portfolio__subitem:before { content: ""; position: absolute; top: 11px; left: -10px; height: 1px; width: 5px; background-color: #000; }
@@ -127,8 +127,25 @@ a:hover { color: #eb6c96; }
 .title__small { font-size: 21px; line-height: 1.5; margin: 5px 0 10px; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
-@media only screen and (max-width: 1600px){
- body{ font-size: 18px; } }
+@media only screen and (max-width: 830px){
+ .info__text{ width: 590px; } }
+@media only screen and (max-width: 710px){
+ .knowledge__list{ width: 50%; } }
+@media only screen and (max-width: 700px){
+ .title__main sup{ position: relative; color: transparent; font-size: 0; }
+ .title__main sup:after{ content: ""; position: absolute; top: 20px; left: 0; width: 16px; height: 16px; background-color: red; -webkit-border-radius: 100%; border-radius: 100%; }
+ .title__section{ text-indent: -0.5em; } }
+@media only screen and (max-width: 620px){
+ .info__text{ width: 56%; float: right; }
+ .info__text:last-child{ width: 100%; }
+ .info__img{ width: 40%; margin: 0 0 20px 0; } }
+@media only screen and (max-width: 600px){
+ body{ font-size: 20px; } }
+@media only screen and (max-width: 560px){
+ .info__text{ width: 100%; float: none; }
+ .info__img{ display: none; } }
+@media only screen and (max-width: 470px){
+ .knowledge__list{ width: 100%; } }
 
 
 
