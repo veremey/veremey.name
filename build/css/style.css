@@ -77,6 +77,9 @@ a:hover { color: #eb6c96; }
 .portfolio__subitem { position: relative; }
 .portfolio__subitem:before { content: ""; position: absolute; top: 11px; left: -10px; height: 1px; width: 5px; background-color: #000; }
 
+.education { padding-bottom: 40px; *zoom: 1; }
+.education:after { content: " "; display: table; clear: both; }
+
 .slick-slider { position: relative; display: block; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
 
 .slick-list { position: relative; overflow: hidden; display: block; margin: 0; padding: 0; }
