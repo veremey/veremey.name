@@ -54,11 +54,9 @@ a:hover { color: #eb6c96; }
 .info__text { margin-bottom: 10px; }
 .info__img { float: left; font-size: 0; margin: 0 30px 20px 0; }
 
-.contact__wrap { margin-bottom: 30px; }
+.contact__wrap { padding-bottom: 30px; }
 .contact__link { width: 20%; position: relative; display: inline-block; vertical-align: top; text-align: center; }
-.contact__link:hover span { top: 100%; opacity: 1; }
-.contact__link span { position: absolute; top: 0; left: 50%; opacity: 0; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); white-space: nowrap; -webkit-transition: 0.6s; transition: 0.6s; }
-
+.contact__link span { position: absolute; top: 110%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); white-space: nowrap; }
 .knowledge { text-align: justify; line-height: 0; font-size: 0; text-justify: newspaper; zoom: 1; -moz-text-align-last: justify; text-align-last: justify; }
 .knowledge:after { content: ""; display: inline-block; width: 100%; height: 0px; visibility: hidden; overflow: hidden; }
 .knowledge p { font-size: 18px; line-height: 1.22; text-align: left; -moz-text-align-last: left; text-align-last: left; }
@@ -88,6 +86,12 @@ a:hover { color: #eb6c96; }
 .title__small { font-size: 21px; line-height: 1.5; margin: 5px 0 10px; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
+@media only screen and (max-width: 1200px){
+ .contact__wrap{ padding-bottom: 0; }
+ .contact__link{ text-align: left; width: 100%; line-height: 54px; }
+ .contact__link:hover span{ top: 0; }
+ .contact__link .icon-email, .contact__link .icon-phone, .contact__link .icon-skype, .contact__link .icon-github, .contact__link .icon-twitter{ font-size: 24px; line-height: 54px; }
+ .contact__link span{ top: 0px; left: 50px; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
 @media only screen and (max-width: 830px){
  .info__text{ width: 590px; } }
 @media only screen and (max-width: 710px){
@@ -107,7 +111,7 @@ a:hover { color: #eb6c96; }
  .info__img{ display: none; }
  .contact__link{ width: 100%; text-align: left; margin-bottom: 10px; -webkit-transition: 0.6s; transition: 0.6s; }
  .contact__link:hover span{ top: 10px; }
- .contact__link span{ top: 10px; left: 80px; opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+ .contact__link span{ left: 80px; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); opacity: 1; } }
 @media only screen and (max-width: 470px){
  .knowledge__list{ width: 100%; } }
 
