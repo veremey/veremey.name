@@ -83,7 +83,15 @@ a
 			span
 				top: 100%
 				opacity: 1
-				// +tr(opacity 0.2s .6s)
+
+		+r(560)
+			width: 100%
+			text-align: left
+			margin-bottom: 10px
+			+tr(.6s)
+			&:hover
+				span
+					top: 10px
 		span
 			position: absolute
 			top: 0
@@ -92,6 +100,11 @@ a
 			+trx(-50%)
 			white-space: nowrap
 			+tr(.6s)
+			+r(560)
+				top: 10px
+				left: 80px
+				opacity: 1
+				+trx(0)
 
 .knowledge
 	+justify

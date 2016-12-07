@@ -94,7 +94,7 @@ a:hover { color: #eb6c96; }
  .knowledge__list{ width: 50%; } }
 @media only screen and (max-width: 700px){
  .title__main sup{ position: relative; color: transparent; font-size: 0; }
- .title__main sup:after{ content: ""; position: absolute; top: 20px; left: 0; width: 16px; height: 16px; background-color: red; border-radius: 100%; }
+ .title__main sup:after{ content: ""; position: absolute; top: 20px; left: 0; width: 16px; height: 16px; background-color: #19cc19; border-radius: 100%; }
  .title__section{ text-indent: -0.5em; } }
 @media only screen and (max-width: 620px){
  .info__text{ width: 56%; float: right; }
@@ -104,7 +104,10 @@ a:hover { color: #eb6c96; }
  body{ font-size: 20px; } }
 @media only screen and (max-width: 560px){
  .info__text{ width: 100%; float: none; }
- .info__img{ display: none; } }
+ .info__img{ display: none; }
+ .contact__link{ width: 100%; text-align: left; margin-bottom: 10px; -webkit-transition: 0.6s; transition: 0.6s; }
+ .contact__link:hover span{ top: 10px; }
+ .contact__link span{ top: 10px; left: 80px; opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
 @media only screen and (max-width: 470px){
  .knowledge__list{ width: 100%; } }
 
