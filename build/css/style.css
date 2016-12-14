@@ -39,7 +39,7 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 @font-face { font-family: "LatoRegular"; src: url("fonts/LatoRegular.eot"); src: url("fonts/LatoRegular.eot?#iefix") format("embedded-opentype"), url("fonts/LatoRegular.woff2") format("woff2"), url("fonts/LatoRegular.woff") format("woff"), url("fonts/LatoRegular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 @font-face { font-family: "LatoLight"; src: url("fonts/LatoLight.eot"); src: url("fonts/LatoLight.eot?#iefix") format("embedded-opentype"), url("fonts/LatoLight.woff2") format("woff2"), url("fonts/LatoLight.woff") format("woff"), url("fonts/LatoLight.ttf") format("truetype"); font-weight: normal; font-style: normal; }
-body { font-size: 18px; line-height: 1.22; background-color: #fff; font-family: "LatoRegular", Arial, sans-serif; }
+body { font-size: 18px; line-height: 1.6; background-color: #fff; font-family: "LatoRegular", Arial, sans-serif; }
 
 sup { font-size: 0.6em; vertical-align: top; }
 
@@ -59,7 +59,7 @@ a:hover { color: #eb6c96; }
 .contact__link span { position: absolute; top: 110%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); white-space: nowrap; }
 .knowledge { text-align: justify; line-height: 0; font-size: 0; text-justify: newspaper; zoom: 1; -moz-text-align-last: justify; text-align-last: justify; }
 .knowledge:after { content: ""; display: inline-block; width: 100%; height: 0px; visibility: hidden; overflow: hidden; }
-.knowledge p { font-size: 18px; line-height: 1.22; text-align: left; -moz-text-align-last: left; text-align-last: left; }
+.knowledge p { font-size: 18px; line-height: 1.5; text-align: left; -moz-text-align-last: left; text-align-last: left; }
 .knowledge__list { display: inline-block; vertical-align: top; margin: 10px 0; }
 .knowledge__item { display: block; font-size: 18px; line-height: 1.5; text-align: left; -moz-text-align-last: left; text-align-last: left; }
 
