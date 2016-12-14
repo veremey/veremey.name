@@ -73,7 +73,7 @@ a:hover { color: #eb6c96; }
 .portfolio__link { font-size: 20px; }
 .portfolio__sublist { margin-left: 20px; }
 .portfolio__subitem { position: relative; }
-.portfolio__subitem:before { content: ""; position: absolute; top: 11px; left: -10px; height: 1px; width: 5px; background-color: #000; }
+.portfolio__subitem:before { content: ""; position: absolute; top: 15px; left: -10px; height: 1px; width: 5px; background-color: #000; }
 
 .education { padding-bottom: 40px; *zoom: 1; }
 .education:after { content: " "; display: table; clear: both; }
