@@ -5,6 +5,10 @@ html(lang="ru-RU")
     title CV
     meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
     link(rel="icon", type="image/png" href="img/favicon.png")
+    script.
+      function loadFont(a,b,c){function d(){if(!window.FontFace)return!1;var a=new FontFace("t",'url("data:application/font-woff2,") format("woff2")',{});return a.load(),"loading"===a.status}var e=navigator.userAgent,f=!window.addEventListener||e.match(/(Android (2|3|4.0|4.1|4.2|4.3))|(Opera (Mini|Mobi))/)&&!e.match(/Chrome/);if(!f){var g={};try{g=localStorage||{}}catch(a){}var h="x-font-"+a,i=h+"url",j=h+"css",k=g[i],l=g[j],m=document.createElement("style");if(m.rel="stylesheet",document.head.appendChild(m),!l||k!==b&&k!==c){var n=c&&d()?c:b,o=new XMLHttpRequest;o.open("GET",n),o.onload=function(){o.status>=200&&o.status<400&&(g[i]=n,g[j]=m.textContent=o.responseText)},o.send()}else m.textContent=l}}
+    script.
+      loadFont("latolight","src/fonts/font.css","src/fonts/font.css"),loadFont("latoregular.woff","src/fonts/font.css","src/fonts/font.css")
     link(rel="stylesheet" media="all" href="css/style.css")
   body
     //BEGIN profile

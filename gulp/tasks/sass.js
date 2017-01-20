@@ -24,7 +24,7 @@ gulp.task('sass', function() {
 
     return sass(config.src.sass+'*.sass', {
         sourcemap: true,
-        style: 'compact',
+        style: 'compressed',
         emitCompileError: true
     })
     .on('error', notify.onError({
