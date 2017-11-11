@@ -1,37 +1,36 @@
-## Technologies
+# CV
 
-* SASS
+<table>
+  <tbody>
+    <tr>
+      <td>Name:</td>
+      <td>Sergey Veremiychuk</td>
+    </tr>
+    <tr>
+      <td>Citizenship:</td>
+      <td>Ukraine</td>
+    </tr>
+    <tr>
+      <td>Languages:</td>
+      <td>Russian, Ukrainian, English</td>
+    </tr>
+    <tr>
+      <td>Status:</td>
+      <td>Available for hire</td>
+    </tr>
+  </tbody>
+</table>
 
-* CSS3
 
-* HTML5
 
-* bem
-
-* jQuery
-
-### Packege maneger
-
-* npm
-
-* bower
-
-### Automatization
-
-* gulp
+* I have a modern approaches in web-development: mobile devices layout, retina, adaptive layout, SVG, canvas, parallax, web animation ect.
+*  The biggest project 80+ pages.
+*  UaWebChallenge, finalist.
 
 ## Contacts
 
-Skype: baxazar
+Skype: [baxazar](skype:baxazar?call)
 
 Email: [veremey4uk@gmail.com](mailto:veremey4uk@gmail.com)
 
-## Как это использовать
-
-Установить локально gulp выполнив следующие команды:
-
-1. *npm install gulp*
-
-Установить плагины
-
-1. *npm install*
+LinkedIn: [Sergey Veremiychuk](https://www.linkedin.com/in/server)
