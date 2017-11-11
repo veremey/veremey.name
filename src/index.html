@@ -1,20 +1,206 @@
 <!doctype html>
-<html lang="ru">
-<head>
-	<meta charset="utf-8">
-	<title>Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="theme-color" content="#fff">
-	<link rel="icon" type="image/png" href="img/favicon.png">
-	<link rel="stylesheet" media="all" href="css/style.css" >
-	<script src="js/app.js"></script>
-</head>
-<body>
-<!-- BEGIN  out-->
-<div class="out">
-	<i class="icon-sepa"></i>
-	//=include partials/partial.html
-</div>
-<!-- END out-->
-</body>
+<html ⚡ lang="ru-Ru">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>CV-ru</title>
+    <link rel="canonical" href="cv-en.html">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="profile">
+      <header class="profile__header">
+        <h1 class="title__main">Веремийчук Сергей</h1>
+        <h4 class="title__subtitle">Front-end developer</h4>
+        <nav class="profile__nav">
+          <a href="pdf/VeremiychukSergeyCV-ru.pdf" class="profile__link" title="Скачать резюме в PDF" tabindex="0" download>Скачать PDF</a>
+          <a href="cv-en.html" lang="en" class="profile__link">In English</a>
+        </nav>
+      </header>
+      <div id="info" class="info">
+        <amp-img src="img/photo.jpg" alt="profile photo" class="info__img" layout="fixed" height="336" width="255">
+          <noscript>
+            <img src="img/photo.jpg" width="255" height="336" alt="photo">
+          </noscript>
+        </amp-img>
+        <div class="info__text">
+          <p>Статус: открыт к преложениям</p>
+          <p>Дата рождения: 24 апреля 1988 года</p>
+          <p>Гражданство: Украина</p>
+          <p>Семейное положение: женат</p>
+          <br>
+          <p>Владею современными подходами в веб-разработке: верстка под мобильные устройства, ретину, адаптивная верстка, SVG, canvas, параллакс, анимация и многое другое.</p>
+          <p>Финалист Всеукраиского конкурса по разработке
+            <a href="http://uawebchallenge.com/"> UaWebChallenge
+            </a>, категория front-end</p>
+          <p>Наибольший сделанный проект на 80+ страниц.</p>
+          <p>Не готов к переезду, возможны командировки к заказчику</p>
+        </div>
+      </div>
+      <section id="lang" class="lang">
+        <h2 class="title__section">Языки:</h2>
+        <p>Украинский, Русский, Английский (Intermediate)</p>
+      </section>
+      <section id="contact" class="contact">
+        <h2 class="title__section">Контакты</h2>
+        <div class="contact__content">
+          <span class="contact__type">EMail:</span>
+          <a href="mailto:veremey4uk@gmail.com" class="contact__link">veremey4uk@gmail.com</a>
+        </div>
+        <div class="contact__content">
+          <span class="contact__type">Skype:</span>
+          <a href="tel:baxazar" class="contact__link">baxazar</a>
+        </div>
+        <div class="contact__content">
+          <span class="contact__type">Tel:</span>
+          <a href="tel:+38097-15-15-097" class="contact__link">+38097-15-15-097</a>
+        </div>
+        <div class="contact__content">
+          <span class="contact__type">GitHub:</span>
+          <a href="https://github.com/veremey" class="contact__link">https://github.com/veremey</a>
+        </div>
+      </section>
+
+      <section id="knowledge" class="knowledge">
+        <h2 class="title__section">Знания</h2>
+        <div class="knowledge__container">
+          <ul class="knowledge__list">
+            <li class="knowledge__item">
+              <h3 class="title__small">Разметка</h3>
+            </li>
+            <li class="knowledge__item">HTML</li>
+            <li class="knowledge__item">HAML</li>
+            <li class="knowledge__item">AMP</li>
+            <li class="knowledge__item">Jade</li>
+            <li class="knowledge__item">Markdown</li>
+            <li class="knowledge__item">Pug</li>
+          </ul>
+          <ul class="knowledge__list">
+            <li class="knowledge__item">
+              <h3 class="title__small">Стили</h3>
+            </li>
+            <li class="knowledge__item">CSS</li>
+            <li class="knowledge__item">SASS</li>
+            <li class="knowledge__item">Less</li>
+            <li class="knowledge__item">SCSS</li>
+            <li class="knowledge__item">Stylus</li>
+          </ul>
+          <ul class="knowledge__list">
+            <li class="knowledge__item">
+              <h3 class="title__small">Программирование</h3>
+            </li>
+            <li class="knowledge__item">JS</li>
+            <li class="knowledge__item">jQuery</li>
+            <li class="knowledge__item knowledge__item_low">Canvas</li>
+            <li class="knowledge__item knowledge__item_low">ES6</li>
+          </ul>
+          <ul class="knowledge__list">
+            <li class="knowledge__item">
+              <h3 class="title__small">Дополнительно</h3>
+            </li>
+            <li class="knowledge__item">Gulp</li>
+            <li class="knowledge__item">Grunt</li>
+            <li class="knowledge__item">Git</li>
+            <li class="knowledge__item">Mercurial</li>
+            <li class="knowledge__item">GSAP</li>
+            <li class="knowledge__item">Photoshop</li>
+            <li class="knowledge__item">Illustrator</li>
+            <li class="knowledge__item">Zeplin</li>
+            <li class="knowledge__item">web-animation</li>
+          </ul>
+        </div>
+      </section>
+      <section id="career" class="career">
+        <h2 class="title__section">Карьера</h2>
+        <div class="career__place">
+          <h3 class="career__title">юТека
+            <time datetime="2017-02">(февраль 2017 )</time>
+          </h3>
+          <p>Фармацевтический веб-сервис</p>
+        </div>
+        <div class="career__place">
+          <h3 class="career__title">Kick-ass Labs
+            <time datetime="2015-12">(декабрь 2015 - январь 2017)</time>
+          </h3>
+          <p>команда разрабатывыющая приложения и сайты для креатывных агенств</p>
+        </div>
+        <div class="career__place">
+          <h3 class="career__title">Фрилансер
+            <time datetime="2014-01">(январь 2014 - март 2016)</time>
+          </h3>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <h2 class="title__section">Лучшие работы</h2>
+        <ul class="portfolio__list">
+          <li class="portfolio__item">
+            <a target="_blank" href="http://alfabank.rbc.ru/ " class="portfolio__link">http://alfabank.rbc.ru</a>
+            <ul class="portfolio__sublist">
+              <li class="portfolio__subitem">награжден CSSDesignAwards - special kudos</li>
+              <li class="portfolio__subitem">использованы анимационные эффекты</li>
+              <li class="portfolio__subitem">параллакс</li>
+            </ul>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://elite.realty.rbc.ru/" class="portfolio__link">http://elite.realty.rbc.ru/</a>
+            <ul class="portfolio__sublist">
+              <li class="portfolio__subitem">интресные анимационные эффекты</li>
+              <li class="portfolio__subitem">работа с картой</li>
+              <li class="portfolio__subitem">работа с видео</li>
+              <li class="portfolio__subitem">поддержка всех девайсов Apple - iPhone 5,5s,6,6s, iPad pro, iPad Air 2,3 и не только</li>
+            </ul>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://ethernalheroes.com/" class="portfolio__link">http://ethernalheroes.com/</a>
+            <ul class="portfolio__sublist">
+              <li class="portfolio__subitem">Фоновое видео</li>
+              <li class="portfolio__subitem">Адаптив, корректная работа на всех устроуствах</li>
+              <li class="portfolio__subitem">Корректно работает во всех браузерах, даже в стареньком IE10</li>
+            </ul>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://pathfinder.autonews.ru" class="portfolio__link">http://pathfinder.autonews.ru</a>
+            <ul class="portfolio__sublist">
+              <li class="portfolio__subitem">Множество красывых анимаций</li>
+            </ul>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://finam.rbc.ru/ " class="portfolio__link">http://finam.rbc.ru</a>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://shinglas.com/ua/?utm_medium=Logo&amp;utm_source=ibud.ua&amp;utm_campaign=ibud.ua.promo " class="portfolio__link">shinglas promo</a>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://businessuccess.rbc.ru/" class="portfolio__link">http://businessuccess.rbc.ru/</a>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://100years.style.rbc.ru/ " class="portfolio__link">http://100years.style.rbc.ru</a>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://kommersant.ru/projects/bolshoi" class="portfolio__link">большой театр</a>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://aboutscotland.style.rbc.ru" class="portfolio__link">http://aboutscotland.style.rbc.ru</a>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://thomsonreuters.rbc.ru" class="portfolio__link">http://thomsonreuters.rbc.ru</a>
+          </li>
+          <li class="portfolio__item">
+            <a target="_blank" href="http://brooksbrothers.style.rbc.ru/" class="portfolio__link">http://brooksbrothers.style.rbc.ru</a>
+          </li>
+        </ul>
+      </section>
+      <section id="education" class="education">
+        <h2 class="title__section">Образование</h2>
+        <p>Университет экономики и права “КРОК” (Киев)
+          <sup>(2006 - 2011)</sup>
+          <br>
+          Факультет: Финансы и кредит (Магистр, стационар)</p>
+      </section>
+    </div>
+  </body>
 </html>
